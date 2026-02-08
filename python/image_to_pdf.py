@@ -1,6 +1,10 @@
 """
-This script resizes all the images to A4 size in a given directory and merges them into a single PDF file.
+This script resizes all the images in a given directory and merges them into a single PDF file.
 """
+
+# pip install fpdf==1.7.2
+
+
 
 # Import the necessary libraries
 from os import listdir
